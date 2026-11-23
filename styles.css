@@ -30,9 +30,9 @@ body {
   position: relative;
 }
 
-/* Header */
+/* Header — purple to ocean blue gradient on all pages */
 header {
-  background: linear-gradient(135deg, #0A4A6E 0%, #1A6F8A 50%, #2A9DB8 100%);
+  background: linear-gradient(135deg, #7B2CBF 0%, #5A189A 35%, #1A5F7A 70%, #0A4A6E 100%);
   position: sticky;
   top: 0;
   z-index: 1000;
