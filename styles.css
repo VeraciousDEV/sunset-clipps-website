@@ -20,10 +20,10 @@
   box-sizing: border-box;
 }
 
-/* Exact match to original site background */
+/* Background image at top + ocean blue fill (like original layout) */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #FFC14A;
+  background-color: #0A4A6E;
   background-image: url('https://www.sunsetclipps.com/images/bg_sunset.jpg');
   background-repeat: no-repeat;
   background-size: 100% auto;
