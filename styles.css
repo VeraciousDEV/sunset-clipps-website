@@ -44,7 +44,7 @@ body::before {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #1A5F7A 0%, #4ECDC4 40%, #FFB347 100%);
+  background: linear-gradient(135deg, #073B4C 0%, #1A5F7A 50%, #2A9D8F 100%);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -304,7 +304,7 @@ section {
 
 /* Footer */
 footer {
-  background: linear-gradient(135deg, #1A5F7A 0%, #4ECDC4 40%, #FFB347 100%);
+  background: linear-gradient(135deg, #073B4C 0%, #1A5F7A 50%, #2A9D8F 100%);
   color: white;
   padding: 3rem 5% 2rem;
   text-align: center;
