@@ -44,7 +44,7 @@ body::before {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #073B4C 0%, #1A5F7A 50%, #2A9D8F 100%);
+  background: linear-gradient(135deg, #0A4A6E 0%, #1A6F8A 50%, #2A9DB8 100%);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -63,9 +63,13 @@ nav {
 .logo {
   font-family: 'Pacifico', cursive;
   font-size: 1.8rem;
-  color: var(--ocean);
+  color: white;
   text-decoration: none;
   letter-spacing: 1px;
+}
+
+.logo img {
+  filter: brightness(0) invert(1);
 }
 
 .logo span {
@@ -304,7 +308,7 @@ section {
 
 /* Footer */
 footer {
-  background: linear-gradient(135deg, #073B4C 0%, #1A5F7A 50%, #2A9D8F 100%);
+  background: linear-gradient(135deg, #0A4A6E 0%, #1A6F8A 50%, #2A9DB8 100%);
   color: white;
   padding: 3rem 5% 2rem;
   text-align: center;
@@ -351,6 +355,16 @@ footer {
 
   .nav-links.active {
     right: 0;
+  }
+
+  .nav-links a {
+    color: var(--deep);
+    text-shadow: none;
+  }
+
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: var(--ocean);
   }
 
   .hamburger {
