@@ -163,7 +163,7 @@ footer .logo img {
   max-width: 900px;
   max-height: 900px;
   background: url('https://www.sunsetclipps.com/images/bg_sunset.jpg') center/contain no-repeat;
-  opacity: 0.12;
+  opacity: 0.35;
   pointer-events: none;
   z-index: 0;
   filter: grayscale(100%) brightness(1.2);
@@ -192,8 +192,8 @@ footer .logo img {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #E8D5B7;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  color: #FFFFFF;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
 }
 
 .hero p {
