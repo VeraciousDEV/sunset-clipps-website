@@ -20,27 +20,19 @@
   box-sizing: border-box;
 }
 
+/* Exact match to original site background */
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--sand);
+  background-color: #FFC14A;
+  background-image: url('https://www.sunsetclipps.com/images/bg_sunset.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: scroll;
+  background-position: 50% 0%;
   color: var(--text);
   line-height: 1.7;
   overflow-x: hidden;
   position: relative;
-}
-
-/* Subtle beachy background pattern on all pages */
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at 20% 80%, rgba(26, 95, 122, 0.06) 0%, transparent 50%),
-              radial-gradient(circle at 80% 20%, rgba(78, 205, 196, 0.06) 0%, transparent 50%);
-  pointer-events: none;
-  z-index: -1;
 }
 
 /* Header */
@@ -146,12 +138,9 @@ footer .logo img {
   transition: 0.3s;
 }
 
-/* Hero — background image ONLY on homepage top */
+/* Hero */
 .hero {
-  background: linear-gradient(135deg, rgba(10, 74, 110, 0.65), rgba(26, 111, 138, 0.5)),
-              url('https://www.sunsetclipps.com/images/bg_sunset.jpg') center top / cover no-repeat;
-  background-size: cover;
-  background-position: center top;
+  background: transparent;
   min-height: 70vh;
   display: flex;
   align-items: center;
