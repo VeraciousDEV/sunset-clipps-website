@@ -133,7 +133,7 @@ footer .logo img {
   transition: 0.3s;
 }
 
-/* Homepage — groovier background colors only (text unchanged) */
+/* Homepage — groovier background + giant centered palm tree */
 .hero {
   background:
     linear-gradient(160deg, rgba(157, 78, 221, 0.28) 0%, rgba(255, 107, 157, 0.32) 35%, rgba(255, 179, 71, 0.3) 70%, rgba(255, 248, 240, 0.9) 100%),
@@ -150,6 +150,25 @@ footer .logo img {
   padding: 4rem 1rem;
   position: relative;
   overflow: hidden;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  height: 90vh;
+  max-width: 900px;
+  max-height: 900px;
+  background: url('https://www.sunsetclipps.com/images/bg_sunset.jpg') center/contain no-repeat;
+  opacity: 0.12;
+  pointer-events: none;
+  z-index: 0;
+  filter: grayscale(100%) brightness(1.2);
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 70%);
 }
 
 .hero::before {
