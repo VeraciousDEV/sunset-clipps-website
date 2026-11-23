@@ -133,14 +133,15 @@ footer .logo img {
   transition: 0.3s;
 }
 
-/* Homepage only — more visible sleek beachy groovy background */
+/* Homepage only — palm trees with pink and orange clouds */
 .hero {
   background:
-    linear-gradient(160deg, rgba(255, 248, 240, 0.75) 0%, rgba(255, 236, 200, 0.6) 40%, rgba(78, 205, 196, 0.35) 100%),
-    radial-gradient(circle at 12% 25%, rgba(255, 179, 71, 0.45) 0%, transparent 42%),
-    radial-gradient(circle at 88% 75%, rgba(26, 95, 122, 0.32) 0%, transparent 48%),
-    linear-gradient(180deg, #FFF0D0 0%, #FFE4B5 100%);
-  min-height: 60vh;
+    linear-gradient(160deg, rgba(255, 182, 193, 0.55) 0%, rgba(255, 160, 122, 0.5) 35%, rgba(255, 218, 185, 0.4) 70%, rgba(255, 248, 240, 0.85) 100%),
+    radial-gradient(ellipse at 20% 15%, rgba(255, 105, 180, 0.4) 0%, transparent 35%),
+    radial-gradient(ellipse at 75% 25%, rgba(255, 140, 66, 0.5) 0%, transparent 40%),
+    radial-gradient(ellipse at 50% 80%, rgba(255, 200, 124, 0.35) 0%, transparent 50%),
+    linear-gradient(180deg, #FFDAB9 0%, #FFE4C4 100%);
+  min-height: 65vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,11 +155,14 @@ footer .logo img {
 .hero::before {
   content: '';
   position: absolute;
-  top: -40%;
-  left: -40%;
-  width: 180%;
-  height: 180%;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%234ECDC4' fill-opacity='0.22' d='M0,160L48,170.7C96,181,192,203,288,197.3C384,192,480,160,576,154.7C672,149,768,171,864,181.3C960,192,1056,192,1152,176C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E") bottom/cover no-repeat;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cpath fill='%231A5F7A' fill-opacity='0.55' d='M100 180 L95 120 Q80 100 70 80 Q85 95 100 90 Q115 95 130 80 Q120 100 105 120 Z'/%3E%3Cpath fill='%231A5F7A' fill-opacity='0.55' d='M40 190 L38 140 Q30 125 22 110 Q35 122 45 118 Q55 122 62 110 Q55 125 42 140 Z'/%3E%3Cpath fill='%231A5F7A' fill-opacity='0.55' d='M160 190 L162 135 Q170 118 178 100 Q165 115 155 112 Q145 115 138 100 Q148 120 158 135 Z'/%3E%3C/svg%3E") bottom left / 220px no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cpath fill='%231A5F7A' fill-opacity='0.5' d='M100 180 L95 120 Q80 100 70 80 Q85 95 100 90 Q115 95 130 80 Q120 100 105 120 Z'/%3E%3C/svg%3E") bottom right / 180px no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23FF9A8B' fill-opacity='0.25' d='M0,192L48,197.3C96,203,192,213,288,192C384,171,480,117,576,112C672,107,768,149,864,165.3C960,181,1056,171,1152,154.7C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E") bottom/cover no-repeat;
   pointer-events: none;
   z-index: 0;
 }
@@ -173,7 +177,7 @@ footer .logo img {
   font-weight: 700;
   margin-bottom: 1rem;
   color: #1A5F7A;
-  text-shadow: 0 1px 2px rgba(255,255,255,0.6);
+  text-shadow: 0 1px 3px rgba(255,255,255,0.7);
 }
 
 .hero p {
@@ -182,7 +186,7 @@ footer .logo img {
   margin: 0 auto 2rem;
   color: #2C3E50;
   opacity: 1;
-  text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+  text-shadow: 0 1px 2px rgba(255,255,255,0.6);
 }
 
 /* Sections */
