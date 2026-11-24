@@ -155,7 +155,7 @@ footer .logo img {
 .hero::after {
   content: '';
   position: absolute;
-  top: 15%;
+  top: 22%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100vw;
