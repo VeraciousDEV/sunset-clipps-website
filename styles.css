@@ -155,20 +155,20 @@ footer .logo img {
 .hero::after {
   content: '';
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90vw;
-  height: 90vh;
-  max-width: 900px;
+  width: 100vw;
+  height: 80vh;
+  max-width: 1100px;
   max-height: 900px;
   background: url('https://www.sunsetclipps.com/images/bg_sunset.jpg') center/contain no-repeat;
   opacity: 0.35;
   pointer-events: none;
   z-index: 0;
   filter: grayscale(100%) brightness(1.2);
-  mask-image: radial-gradient(ellipse at center, black 40%, transparent 70%);
-  -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 70%);
+  mask-image: radial-gradient(ellipse at center, black 35%, transparent 65%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 35%, transparent 65%);
 }
 
 .hero::before {
